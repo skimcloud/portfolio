@@ -1,0 +1,110 @@
+/* General container styling */
+#main {
+    width: 80%;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+/* Profile section styling */
+#profile {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Name styling */
+#profile h1 {
+    font-size: 2.5rem;
+    color: var(--color-text-important, #333); /* Default to dark gray if variable is not set */
+    font-weight: 700;
+    margin-bottom: 0.5rem; /* Reduced margin */
+}
+
+/* Profile picture styling */
+#profile picture img {
+    width: 14rem;
+    height: 14rem;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 3.2px 7.2px rgba(0, 0, 0, .13), 0 0 3.8px rgba(0, 0, 0, .11);
+    border: 3px solid #fff;
+    margin-bottom: 1rem;
+}
+
+/* Title styling */
+.title {
+    font-size: var(--font-title);
+    color: var(--color-text-important);
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+/* Subtitle styling (e.g., email) */
+#profile .subtitle {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: var(--color-text-important);
+    margin-top: 10px;
+}
+
+/* Contact section */
+#contact {
+    font-size: var(--font-text);
+    max-width: 25rem;
+    margin: auto;
+    margin-top: -1rem;
+}
+
+/* Intro text styling */
+#intro {
+    font-size: var(--font-text);
+    max-width: 25rem;
+    margin:auto;
+    margin-top:1.25rem;
+}
+
+/* Contact section styling */
+#contact {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem; /* Adjusts the space between icons */
+    margin-top: 0rem;
+}
+
+/* Contact icon styling */
+.contact-icon {
+    width: 3rem; /* Adjust the size of the icons */
+    height: 3rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.contact-icon:hover {
+    transform: scale(1.1); /* Slightly enlarges the icon on hover */
+}
+
+/* Portfolio Section */
+#portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Adjust the height to fit content */
+    padding: 1rem 0; /* Optional: Add some padding if needed */
+    text-align: center;
+}
+
+/* Centering the image */
+#portfolio picture img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+/* Adjusting body to center content and set basic typography */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
