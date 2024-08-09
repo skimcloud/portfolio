@@ -56,6 +56,7 @@
 
 /* Intro text styling */
 #intro {
+    color: var(--color-text-extra);
     font-size: var(--font-text);
     max-width: 25rem;
     margin:auto;
