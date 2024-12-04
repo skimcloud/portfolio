@@ -7,6 +7,44 @@
     <title>Shane Kim's Portfolio</title>
     <link href="css/common.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #profile {
+            margin-bottom: 20px;
+        }
+
+        .contact-icon {
+            width: 40px;
+            height: 40px;
+            margin: 0 10px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section#portfolio {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -40,10 +78,11 @@
     <main>
         <h2>A snapshot of my tools to measure SPY dealer positioning...</h2>
         <section id="portfolio">
-            <iframe src="exp.html" width="100%" height="500px" style="border:none;"></iframe>
-            <iframe src="strike.html" width="100%" height="500px" style="border:none;"></iframe>
-            <iframe src="strikeandexp.html" width="100%" height="500px" style="border:none;"></iframe>
-            <iframe src="vol.html" width="100%" height="500px" style="border:none;"></iframe>
+            <iframe src="exp.html"></iframe>
+            <iframe src="strike.html"></iframe>
+            <iframe src="strikeandexp.html"></iframe>
+            <iframe src="vol.html"></iframe>
+            <iframe src="volchange.html"></iframe>
         </section>
     </main>
 
